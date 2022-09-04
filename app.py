@@ -2,11 +2,11 @@ import streamlit as st
 
 st.title('计算箱子总体积')
 
-length = st.number_input("长 (厘米)", value=0, min_value=0, step=1.0)
-width = st.number_input("宽 (厘米)", value=0, min_value=0, step=1.0)
-height = st.number_input("高 (厘米)", value=0, min_value=0, step=1.0)
+length = st.number_input("长 (厘米)")#, value=0, min_value=0, step=1.0)
+width = st.number_input("宽 (厘米)")#, value=0, min_value=0, step=1.0)
+height = st.number_input("高 (厘米)")#, value=0, min_value=0, step=1.0)
 
-n_package = st.number_input("箱子个数", value=0, min_value=0, step=1.0)
+n_package = st.number_input("箱子个数")#, value=0, min_value=0, step=1.0)
 
 # calculation = st.button("计算总体积")
 
